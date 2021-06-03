@@ -1,0 +1,42 @@
+.PhoneInputInput{
+    height:50px;
+    border-radius:5px;
+    background-color: transparent;
+    padding-left:20px;
+    border: 1px solid grey;
+    color:#8a85ff;
+    font-size: 16px;
+}
+.btn-secondary{
+    background-color:#f48fb1 !important;
+    color:white !important;
+    height:40px;
+}
+* {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.334;
+    letter-spacing: -0.05px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3949ab;
+}
+*, input, select, textarea, option, button {
+    outline: none!important;
+}

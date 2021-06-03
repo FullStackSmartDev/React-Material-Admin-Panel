@@ -1,0 +1,35 @@
+import mock from './mock';
+
+mock.onGet('/api/users/data').reply(200, {
+  id: 1,
+  fullName: 'Marco Polo',
+  position: 'agent',
+  teamLead: 'Ilia Svinin',
+  avatar: 'https://material-ui.com/static/images/avatar/2.jpg',
+  totalCalls: 61,
+  totalCallsTime: '117:21:21',
+  leadsToCustomers: '51:27',
+  totalCallsCost: 48.59,
+},
+{
+  id: 2,
+  fullName: 'Leonardo De Vincci',
+  position: 'agent',
+  teamLead: 'Ilia Svinin',
+  avatar: 'https://material-ui.com/static/images/avatar/2.jpg',
+  totalCalls: 75,
+  totalCallsTime: '217:54:21',
+  leadsToCustomers: '71:47',
+  totalCallsCost: 65.59,
+},
+{
+  id: 3,
+  fullName: 'Thomas Edison',
+  position: 'agent',
+  teamLead: 'Ilia Svinin',
+  avatar: 'https://material-ui.com/static/images/avatar/2.jpg',
+  totalCalls: 21,
+  totalCallsTime: '37:52:21',
+  leadsToCustomers: '21:21',
+  totalCallsCost: 29.03,
+});

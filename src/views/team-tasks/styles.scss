@@ -1,0 +1,13 @@
+.lead-box-wrapper {
+  cursor: pointer;
+  &[data-active="true"]::after  {
+    display: block;
+    width: 100%;
+    content: " ";
+    background-color: #8a85ff;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    height: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+}
